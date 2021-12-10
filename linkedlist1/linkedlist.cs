@@ -8,16 +8,21 @@ namespace linkedlist1
 {
     internal class linkedlist
     {
-       static void Main()
-       {
-            string[] num = { "56", "30", "70" };
-            Console.WriteLine("Displaying elements of a Linked List: ");
-            LinkedList<string> myList = new LinkedList<string>(num);
-            foreach (var num1 in myList)
-            {
-                Console.WriteLine(num1);
-            }
-       }
-    }
+      
+     static void Main(string[] args)
+     {
+        LinkedList <int> L = new LinkedList<int>();
+       
+        L.AddFirst(30);
+        L.AddFirst(56);
+        L.AddFirst(70);
+       
+        Console.Write("Linked List elements are: ");
+        foreach (int i in L)
+        {
+            Console.Write(i + " ");
+        }
+     }
+  }
 }
 
