@@ -1,0 +1,15 @@
+D:\linklist\linkedlist1\bin\Debug\net6.0\linkedlist1.exe
+D:\linklist\linkedlist1\bin\Debug\net6.0\linkedlist1.deps.json
+D:\linklist\linkedlist1\bin\Debug\net6.0\linkedlist1.runtimeconfig.json
+D:\linklist\linkedlist1\bin\Debug\net6.0\linkedlist1.dll
+D:\linklist\linkedlist1\bin\Debug\net6.0\ref\linkedlist1.dll
+D:\linklist\linkedlist1\bin\Debug\net6.0\linkedlist1.pdb
+D:\linklist\linkedlist1\obj\Debug\net6.0\linkedlist1.csproj.AssemblyReference.cache
+D:\linklist\linkedlist1\obj\Debug\net6.0\linkedlist1.GeneratedMSBuildEditorConfig.editorconfig
+D:\linklist\linkedlist1\obj\Debug\net6.0\linkedlist1.AssemblyInfoInputs.cache
+D:\linklist\linkedlist1\obj\Debug\net6.0\linkedlist1.AssemblyInfo.cs
+D:\linklist\linkedlist1\obj\Debug\net6.0\linkedlist1.csproj.CoreCompileInputs.cache
+D:\linklist\linkedlist1\obj\Debug\net6.0\linkedlist1.dll
+D:\linklist\linkedlist1\obj\Debug\net6.0\ref\linkedlist1.dll
+D:\linklist\linkedlist1\obj\Debug\net6.0\linkedlist1.pdb
+D:\linklist\linkedlist1\obj\Debug\net6.0\linkedlist1.genruntimeconfig.cache
