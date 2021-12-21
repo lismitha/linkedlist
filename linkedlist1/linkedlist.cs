@@ -12,25 +12,30 @@ namespace linkedlist1
         // Main Method
         static public void Main()
         {
+            LinkedList<int> numList = new LinkedList<int>();
+            numList.AddLast(30);
+            LinkedListNode<int> numNode = numList.AddLast(46);
+            LinkedListNode<int> num1Node = numList.AddLast(70);
+            Console.WriteLine("LinkedList Elements");
+            Print(numList);
 
-            // Creating a linkedlist
-            // Using LinkedList class
-            LinkedList<int> my_list = new LinkedList<int>();
+            numList.AddBefore(numNode, 60);
+            Console.WriteLine($"LinkedList Elements After AddBefore({numNode.Value},'60')");
+            Print(numList);
 
-            // Adding elements in the LinkedList
-            // Using AddLast() method
-            my_list.AddLast(36);
-            my_list.AddLast(50);
-            my_list.AddLast(45); 
+            numList.AddBefore(num1Node, 65);
+            Console.WriteLine($"LinkedList Elements After AddBefore({num1Node.Value},'65')");
+            Print(numList);
+        }
 
-            Console.WriteLine("the numbers in the list are :");
 
-            // Accessing the elements of 
-            // LinkedList Using foreach loop
-            foreach (int num in my_list)
+        private static void Print(LinkedList<int> list)
+        {
+            foreach (var node in list)
             {
-                Console.WriteLine(num);
+                Console.Write(node + ", ");
             }
+            Console.WriteLine("\n");
         }
     }
 }
