@@ -8,21 +8,29 @@ namespace linkedlist1
 {
     internal class linkedlist
     {
-      
-     static void Main(string[] args)
-     {
-        LinkedList <int> L = new LinkedList<int>();
-       
-        L.AddFirst(30);
-        L.AddFirst(56);
-        L.AddFirst(70);
-       
-        Console.Write("Linked List elements are: ");
-        foreach (int i in L)
-        {
-            Console.Write(i + " ");
-        }
-     }
-  }
-}
 
+        // Main Method
+        static public void Main()
+        {
+
+            // Creating a linkedlist
+            // Using LinkedList class
+            LinkedList<int> my_list = new LinkedList<int>();
+
+            // Adding elements in the LinkedList
+            // Using AddLast() method
+            my_list.AddLast(36);
+            my_list.AddLast(50);
+            my_list.AddLast(45); 
+
+            Console.WriteLine("the numbers in the list are :");
+
+            // Accessing the elements of 
+            // LinkedList Using foreach loop
+            foreach (int num in my_list)
+            {
+                Console.WriteLine(num);
+            }
+        }
+    }
+}
