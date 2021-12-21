@@ -8,34 +8,44 @@ namespace linkedlist1
 {
     internal class linkedlist
     {
-
         // Main Method
         static public void Main()
         {
-            LinkedList<int> numList = new LinkedList<int>();
-            numList.AddLast(30);
-            LinkedListNode<int> numNode = numList.AddLast(46);
-            LinkedListNode<int> num1Node = numList.AddLast(70);
-            Console.WriteLine("LinkedList Elements");
-            Print(numList);
 
-            numList.AddBefore(numNode, 60);
-            Console.WriteLine($"LinkedList Elements After AddBefore({numNode.Value},'60')");
-            Print(numList);
+            // Creating a linkedlist
+            // Using LinkedList class
+            LinkedList<int> my_list = new LinkedList<int>();
 
-            numList.AddBefore(num1Node, 65);
-            Console.WriteLine($"LinkedList Elements After AddBefore({num1Node.Value},'65')");
-            Print(numList);
-        }
+            // Adding elements in the LinkedList
+            // Using AddLast() method
+            my_list.AddLast(36);
+            my_list.AddLast(40);
+            my_list.AddLast(65);
+            my_list.AddLast(70);
 
 
-        private static void Print(LinkedList<int> list)
-        {
-            foreach (var node in list)
+            // Inital number of elements
+            Console.WriteLine("number of the element :");
+
+            // Accessing the elements of 
+            // Linkedlist Using foreach loop
+            foreach (int num in my_list)
             {
-                Console.Write(node + ", ");
+                Console.WriteLine(num);
             }
-            Console.WriteLine("\n");
+
+            // After using Remove(LinkedListNode)
+            // method
+            Console.WriteLine("remove the first element" + " the element is:");
+
+            my_list.Remove(my_list.First);
+
+            foreach (int num in my_list)
+            {
+                Console.WriteLine(num);
+            }
+
         }
     }
 }
+
